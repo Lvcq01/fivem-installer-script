@@ -29,7 +29,7 @@ curl "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/${BUILD
 
 clear
 
-# Let user select install fomariadb-serverlder
+# Let user select fivem server location
 echo "Select folder, where the FiveM server will be installed"
 read -e -p " » " -i "/home/fivem" SELECTED_FOLDER
 
