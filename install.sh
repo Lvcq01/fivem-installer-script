@@ -8,12 +8,12 @@ echo "Wrong answer, please use option above!"
 
 clear
 
-BUILD="5414-012baabcb819bc3b915ae64c7939d509ab281379"
+BUILD=$(curl -s "https://lvcq01.github.io/version.json" | jq -r '.fivem_build')
 TMP_FOLDER="/tmp/fivem-installer"
 
 # Install dependencies
 APT_PACKAGELIST=""
-PACKAGELIST="curl screen git"
+PACKAGELIST="curl screen git jq"
 for PACKAGE in $PACKAGELIST; do
 	[ -z $(which $PACKAGE) ] && APT_PACKAGELIST="$APT_PACKAGELIST $PACKAGE"
 done
