@@ -12,10 +12,9 @@ FiveM-Server artifacts, cfx-server-data, ESX-Framework and MariaDB Server (both 
 2. apt install git
 3. git clone https://github.com/Lvcq01/fivem-installer-script.git installer-script
 4. cd installer-script
-5. chmod +x installer.sh
-6. ./installer.sh
-7. Follow the script...
-8. When it's finished installing, you can delete the script with "rm installer.sh" if you want.
+5. ./installer.sh
+6. Follow the script...
+7. When it's finished installing, you can delete the script with "rm installer.sh" if you want.
 
 # Written by
 https://github.com/Razuuu & https://github.com/Lvcq01
