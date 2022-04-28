@@ -13,7 +13,7 @@ TMP_FOLDER="/tmp/fivem-installer"
 
 # Install dependencies
 APT_PACKAGELIST=""
-PACKAGELIST="curl screen git jq"
+PACKAGELIST="curl screen git tar xz-utils"
 for PACKAGE in $PACKAGELIST; do
 	[ -z $(which $PACKAGE) ] && APT_PACKAGELIST="$APT_PACKAGELIST $PACKAGE"
 done
