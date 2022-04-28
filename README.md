@@ -2,7 +2,6 @@
 
 Build: latest recommend build  
 OS: Linux
-An installer script for a FiveM server. Currently only available on the Linux platform.
 
 ## What is installed?
 FiveM-Server artifacts, cfx-server-data, ESX-Framework and MariaDB Server (both can be rejected)
