@@ -75,7 +75,7 @@ clear
 
 echo -e "Downloading server.cfg\n"
 cd ${SELECTED_FOLDER}/cfx-server-data/
-wget https://www.plexus-systems.de/scripts/fivem/build/5414-012baabcb819bc3b915ae64c7939d509ab281379/dependencies/server.cfg
+wget https://www.plexus-systems.de/scripts/fivem/build/${BUILD}/dependencies/server.cfg
 
 clear
 
