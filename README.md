@@ -1,6 +1,7 @@
 # FiveM Server-Installer Script
 
-Build: latest recommend build\n
+Build: latest recommend build
+
 OS: Linux
 
 ## What is installed?
