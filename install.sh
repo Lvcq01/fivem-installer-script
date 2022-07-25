@@ -8,7 +8,7 @@ echo "Wrong answer, please use option above!"
 
 clear
 
-BUILD=$(curl -s "https://lvcq01.github.io/version.json" | jq -r '.fivem_build')
+BUILD="5562-25984c7003de26d4a222e897a782bb1f22bebedd"
 TMP_FOLDER="/tmp/fivem-installer"
 
 # Install dependencies
@@ -75,7 +75,7 @@ clear
 
 echo -e "Downloading server.cfg\n"
 cd ${SELECTED_FOLDER}/cfx-server-data/
-wget https://www.plexus-systems.de/scripts/fivem/build/${BUILD}/dependencies/server.cfg
+wget https://lvcq.xyz/dependencies/fivem-${BUILD}/server.cfg
 
 clear
 
