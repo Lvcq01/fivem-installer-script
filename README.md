@@ -1,6 +1,7 @@
 # FiveM Server-Installer Script
 
-Build: latest recommend build  
+Build: latest recommend build (5562-25984c7003de26d4a222e897a782bb1f22bebedd)
+Config: https://docs.fivem.net/docs/server-manual/setting-up-a-server-vanilla/
 OS: Linux
 
 ## What is installed?
